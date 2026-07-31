@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog][keepachangelog] and this project adheres to [Semantic Versioning][semver].
 
+## Unreleased
+
+### Changed
+
+- Version of `php-amqp` in docker container updated up to `2.2.0`
+
 ## v2.12.0
 
 ### Added

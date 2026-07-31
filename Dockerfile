@@ -4,7 +4,7 @@ ENV \
     # <https://github.com/alanxz/rabbitmq-c>
     RABBITMQ_VERSION="0.13.0" \
     # ext-amqp <https://github.com/pdezwart/php-amqp>
-    PHP_AMQP_VERSION="1.11.0" \
+    PHP_AMQP_VERSION="2.2.0" \
     COMPOSER_HOME="/tmp/composer"
 
 COPY --from=composer:2.10.0 /usr/bin/composer /usr/bin/composer
